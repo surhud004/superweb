@@ -1,0 +1,72 @@
+html {
+  scroll-behavior: smooth; /* scroll smoothly to sections */
+}
+body {
+	background-color: #0e1821;
+	color: #ff4757;
+	font-family: 'Josefin Sans', sans-serif;
+}
+th {
+	width: 10px; /* to display lang bars properly */
+	color: #ff4757;
+}
+.light {
+    background-color: #ebe7e1;
+    color: #ff4757;
+    border-color: #0e1821;
+}
+.navbar.scrolled {
+	background-color: #0e1821;
+	transition: background-color 1s;
+}
+.navbar-dark .navbar-toggler-icon {
+	background-image: url("../assets/toggle.png"); /* changed navbar toggle button */
+}
+.navbar-dark .navbar-nav .nav-link {
+	color: #ff4757;
+}
+.navbar-dark .navbar-toggler {
+	border: none;
+}
+.card {
+	width: 50%;
+	background-color: #0e1821;
+	border: none;
+}
+.card-body {
+	padding-left: 0;
+	padding-right: 0;
+}
+.table th, .table td {
+	border-top: none;
+}
+.progress {
+	background-color: #343a40;
+}
+#lightBtn {
+	color: grey;
+}
+#home {
+	font-family: 'Grenze Gotisch', cursive;
+}
+#logo {
+	width: 30%;
+	border-radius: 50%; /* circular logo pic */
+}
+/*shrink font sizes at this screen size*/
+@media (max-width: 1200px) {
+	.card-title, p {
+		font-size: 1rem;
+	}
+	.card-text {
+		font-size: 0.75rem;
+		font-weight: 100;
+	}
+	.btn {
+		display: block;
+		margin-bottom: 1rem;
+	}
+	#namePlate {
+		font-size: 2rem;
+	}
+}
