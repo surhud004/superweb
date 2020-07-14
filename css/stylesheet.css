@@ -6,9 +6,14 @@ body {
 	color: #ff4757;
 	font-family: 'Josefin Sans', sans-serif;
 }
-th {
-	width: 10px; /* to display lang bars properly */
-	color: #ff4757;
+ul {
+	list-style-type: none;
+}
+a {
+	color: #7f232b;
+}
+.heading {
+	font-family: 'Grenze Gotisch', cursive;
 }
 .light {
     background-color: #ebe7e1;
@@ -37,21 +42,22 @@ th {
 	padding-left: 0;
 	padding-right: 0;
 }
-.table th, .table td {
-	border-top: none;
-}
-.progress {
-	background-color: #343a40;
-}
 #lightBtn {
 	color: grey;
 }
-#home {
-	font-family: 'Grenze Gotisch', cursive;
-}
-#logo {
+#logo, #profile {
 	width: 30%;
 	border-radius: 50%; /* circular logo pic */
+}
+#fullAvatarBkg {
+	background-image: url("../assets/scifi.jpg");
+	background-size: contain;
+	border-radius: 50%;
+}
+#profileAvatarBkg {
+	background-image: url("../assets/bkg.jpg");
+	background-size: cover;
+	border-radius: 30%;
 }
 /*shrink font sizes at this screen size*/
 @media (max-width: 1200px) {
@@ -66,7 +72,7 @@ th {
 		display: block;
 		margin-bottom: 1rem;
 	}
-	#namePlate {
+	#brand {
 		font-size: 2rem;
 	}
 }
