@@ -49,12 +49,11 @@
 			</ul>
 		</div>
 	</nav>
+	<div id="mainContent" class="container-fluid my-5 text-center">
 
-	<div id="mainContent" class="container mx-auto my-5 text-center">
-
-		<section id="home" class="row py-5 my-5 justify-content-md-center align-items-md-center">
+		<section id="home" class="row px-5 my-3 py-5 justify-content-md-center align-items-md-center home-parallax">
 			<div class="col heading text-center">
-				<img id="logo" src="assets/logo.png" class="card-img-top mx-auto my-4 d-block" alt="Logo">
+				<img id="logo" src="assets/logo.png" class="card-img-top mx-auto my-4 d-block bkg-placeholder" alt="Logo" title="My Brand">
 				<h1 id="brand">SuperWeb</h1>
 				<h3>Surhud's Personal Web</h3>
 				<p class="lead">Code but keep it simple !</p>
@@ -74,7 +73,7 @@
 			</div>
 		</section>
 		
-		<section id="about" class="row py-5 my-5 justify-content-md-center align-items-md-start">
+		<section id="about" class="row px-5 my-3 py-5 justify-content-md-center align-items-md-start about-parallax">
 			<div class="col-md-6">
 				<p class="lead">Hello, friend! My name is Surhud (/sur-hood/). I am a recent MSc Computer Science grad from Lakehead University, Canada.</p>
 				<img id="profile" src="assets/profile.jpg" class="img-fluid py-2 d-md-inline" alt="Profile" title="Me">
@@ -87,7 +86,7 @@
 						<img src="assets/avatar.png" class="img-fluid d-md-inline" alt="Avatar" title="My Avatar">
 					</div>
 					<div class="col-md-2">
-						<h3>Abilities</h3>
+						<h5>Abilities</h5>
 						<ul>
 							<li><img src="assets/android.png" class="img-fluid py-2 d-md-inline" alt="Android" title="Android"></li>
 							<li><img src="assets/bootstrap.png" class="img-fluid py-2 d-md-inline" alt="Bootstrap" title="Bootstrap"></li>
@@ -102,7 +101,7 @@
 			</div>
 		</section>
 
-		<section id="quotes" class="row py-5 my-5 justify-content-md-center">
+		<section id="quotes" class="row px-5 py-5 my-5 justify-content-md-center">
 			<div class="carousel slide py-5" data-ride="carousel">
   				<div class="carousel-inner">
     				<div class="carousel-item active">
@@ -157,53 +156,53 @@
 			</div>
 		</section>
 
-		<section id="blog" class="row py-5 my-5 justify-content-md-center">
+		<section id="blog" class="row px-5 py-5 my-5 justify-content-md-center">
 			<div class="col-md-6">
 				<div class="card mx-auto">
 					<div class="card-body">
 						<h5 class="card-title"><img src="assets/web.png" width="50" height="50" class="d-inline-block" alt="Blog" title="Blog"> CS Education</h5>
 						<h6 class="card-subtitle mb-2 text-muted">09th Dec 2019</h6>
-						<p class="card-text">Should it be considered a basic requirement for kids in the 21s century?</p>
-						<a href="/blog-cs-education.html" class="btn btn-outline-light">Read More</a>
+						<p class="card-text">Should it be considered a basic requirement in the 21s century?</p>
+						<a href="blog-cs-education.html" class="btn">Read More</a>
 					</div>
 				</div>
 			</div>
 			<div class="col-md-6">
 				<div class="card mx-auto">
 					<div class="card-body">
-						<h5 class="card-title"><img src="assets/web.png" width="50" height="50" class="d-inline-block" alt="vue" title="Vue.js"> AI and responsibility</h5>
+						<h5 class="card-title"><img src="assets/web.png" width="50" height="50" class="d-inline-block" alt="Blog" title="Blog"> AI and responsibility</h5>
 						<h6 class="card-subtitle mb-2 text-muted">27th Sept 2019</h6>
 						<p class="card-text">Could AI bring about the greatest good for the greatest number?</p>
-						<a href="/blog-ai-responsibility.html" class="btn btn-outline-light">Read More</a>
+						<a href="blog-ai-responsibility.html" class="btn">Read More</a>
 					</div>
 				</div>
 			</div>
 		</section>
 
-		<section id="contact" class="row py-5 my-5 justify-content-md-center align-items-md-center">
+		<section id="contact" class="row px-5 pt-5 my-5 justify-content-md-center align-items-md-center contact-parallax">
 			<div id="profileAvatarBkg" class="col-md-6">
 				<img src="assets/avatarprofile.png" class="img-fluid d-md-inline" alt="Avatar" title="My Avatar">
 			</div>
-			<div class="col-md-6">
+			<div id="contactBtns" class="col-md-6">
 				<div class="row my-4 justify-content-md-center">
-					<a href="mailto:surhud004@gmail.com?subject=Hello%20from%20SuperWeb" class="btn btn-outline-light"><img src="assets/email.png" width="50" height="50" alt="email"> Gmail</a>
+					<a href="mailto:surhud004@gmail.com?subject=Hello%20from%20SuperWeb" class="btn"><img src="assets/email.png" width="50" height="50" alt="email"> Gmail</a>
 				</div>
 				<div class="row my-4 justify-content-md-center">
-					<a href="https://github.com/surhud004" class="btn btn-outline-light" target="_blank"><img src="assets/github.png" width="50" height="50" alt="github"> GitHub</a>
+					<a href="https://github.com/surhud004" class="btn" target="_blank"><img src="assets/github.png" width="50" height="50" alt="github"> GitHub</a>
 				</div>
 			</div>
 		</section>
 
-		<footer class="page-footer">
+		<footer class="page-footer pt-3">
 			<p>Designed and Coded by : surhud004 &copy; 2020</p> <!-- Build Date : 13th July 2020 Update Date : -->
+			<small class="text-muted">
+				Theme inspired by : Riot Games' Valorant 2020
+			</small>
 		</footer>
 	</div>
-	<!-- JQuery -->
-	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-	<!-- Popper JS -->
-	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="	sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-	<!-- Bootstrap JS -->
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
 	<!-- Script JS -->
 	<script type="text/javascript">
 		//toggle light and dark classes based on the lightSwitch 
@@ -211,14 +210,15 @@
     		if($("body").hasClass("light")) {
 	      		$("body").removeClass("light");
 	      		$(".card").css("background-color", "#0e1821");
-	      		$(".btn").removeClass("btn-outline-dark");
-	      		$(".btn").addClass("btn-outline-light");
+				$("#home").addClass("home-parallax");
+				$("#about").addClass("about-parallax");
+				$("#contact").addClass("contact-parallax");
 	    	} else {
 	      		$("body").addClass("light");
 	      		$(".card").css("background-color", "#ebe7e1");
-	      		$(".btn").removeClass("btn-outline-light");
-	      		$(".btn").addClass("btn-outline-dark");
-				$("#logo").css("background-color", "#0e1821");
+				$("#home").removeClass("home-parallax");
+				$("#about").removeClass("about-parallax");
+				$("#contact").removeClass("contact-parallax");
 	    	}
 		});
 
